@@ -1,0 +1,2 @@
+# Deep-Learning-Dog-Breed-Recognition-CNN-AlexNet-ResNet-VGG16-
+"A deep learning project for dog breed classification using CNN architectures (AlexNet, ResNet, VGG16) with transfer learning."  "Implemented and compared AlexNet, ResNet, and VGG16 for accurate dog breed recognition using image classification."  "CNN-based dog breed classifier leveraging transfer learning with AlexNet, ResNet, and VGG16 models."
