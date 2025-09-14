@@ -66,3 +66,15 @@ To test the uploaded images with all three CNN models, run the provided shell sc
 ```bash
 # Open a terminal window inside the Project Workspace - Uploaded Images
 sh run_models_batch_uploaded.sh
+
+### 🔹 Batch Processing with Default Dataset
+An easier way to handle this task is with **batch processing** using the provided shell script.  
+You will find **`run_models_batch.sh`** in the workspace. Open that file and you will notice:  
+# Open a terminal window (Unix/Linux/OSX/Lab Workspace)
+sh run_models_batch.sh
+
+```bash
+## Code from run_models_batch.sh
+python check_images.py --dir pet_images/ --arch resnet  --dogfile dognames.txt > resnet_pet-images.txt
+python check_images.py --dir pet_images/ --arch alexnet --dogfile dognames.txt > alexnet_pet-images.txt
+python check_images.py --dir pet_images/ --arch vgg    --dogfile dognames.txt > vgg_pet-images.txt
