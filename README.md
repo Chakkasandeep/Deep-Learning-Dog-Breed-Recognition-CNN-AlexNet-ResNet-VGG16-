@@ -29,6 +29,13 @@ Performance metrics include correct identification of dogs, non-dogs, breeds, an
 
 
 ---
+## ▶️ How to Run
+
+To test the uploaded images with all three CNN models, run the provided shell script:  
+
+```bash
+# Open a terminal window inside the Project Workspace - Uploaded Images
+sh run_models_batch_uploaded.sh
 
 ## 📝 Questions & Answers  
 
